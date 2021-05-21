@@ -1,5 +1,6 @@
-## Citadel Station 13
-Based and maintained from /tg/station.
+## AdeniaCo Station 13
+Based and maintained from Pre-Rebase Skyrat.
+Maintained and modified as of 5/21/2021
 
 [![Build Status](https://api.travis-ci.org/Citadel-Station-13/Citadel-Station-13.png)](https://travis-ci.org/Citadel-Station-13/Citadel-Station-13) 
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/evandarksky/AdeniaCo-Station-13.svg)](http://isitmaintained.com/project/evandarksky/AdeniaCo-Station-13 "Percentage of issues still open")
