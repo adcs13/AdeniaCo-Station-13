@@ -10,7 +10,7 @@
 	supervisors = "Nanotrasen officials and Space law"
 	selection_color = "#aac1ee"
 	req_admin_notify = 1
-	minimal_player_age = 20
+	minimal_player_age = 7
 	exp_requirements = 180
 	exp_type = EXP_TYPE_COMMAND
 	exp_type_department = EXP_TYPE_COMMAND

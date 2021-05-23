@@ -8,6 +8,10 @@
 	spawn_positions = 1
 	supervisors = "the head of personnel"
 	selection_color = "#dddddd"
+	//ADCS Change - Adds jobage to Clown
+	req_admin_notify = 1
+	minimal_player_age = 7
+	//END
 	//SKYRAT CHANGES - adds job exp to clown, requires 100 hours.
 	exp_requirements = 6000
 	exp_type = EXP_TYPE_CREW

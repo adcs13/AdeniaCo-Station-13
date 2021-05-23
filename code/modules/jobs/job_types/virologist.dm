@@ -8,6 +8,10 @@
 	spawn_positions = 1
 	supervisors = "the chief medical officer"
 	selection_color = "#74b5e0"
+	//ADCS change - adds min age time of 3
+	req_admin_notify = 1
+	minimal_player_age = 3
+	//END
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 120 //SKYRAT CHANGE - upping the exp time on jobs
 
