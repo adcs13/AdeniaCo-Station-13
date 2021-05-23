@@ -6,7 +6,6 @@
 
 #Ignore config folders.
 /cfg/**/*
-/config/**/*
 
 #Ignore compiled files and other files generated during compilation.
 *.mdme
