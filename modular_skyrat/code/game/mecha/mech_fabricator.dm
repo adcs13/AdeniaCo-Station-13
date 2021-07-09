@@ -156,6 +156,7 @@
 		spawn(0)
 			if(processing_queue || being_built)
 				return FALSE
+				//^^^^ returning a value in a spawn has no effect: dreamchecker
 			processing_queue = 1
 			process_queue()
 			processing_queue = 0

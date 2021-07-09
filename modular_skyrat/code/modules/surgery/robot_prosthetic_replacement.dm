@@ -85,6 +85,8 @@
 		if(target_zone != L.body_zone)
 			if(target_zone in L.children_zones)
 				for(var/obj/item/bodypart/fosterchild in src)
+				//iterating over a /datum/surgery_step/mechanic_add_prosthetic which cannot be iterated: dreamchecker
+				//This skyrat edit is a piece of quite shitty code, one of the red flags dreamchecker is throwing: evandarksky
 					if((fosterchild.body_zone in L.children_zones) && (target_zone == fosterchild.body_zone) && !bruh)
 						fosterchild.forceMove(get_turf(target))
 						fosterchild.attach_limb(target)

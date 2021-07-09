@@ -25,6 +25,8 @@
 	for(var/d in GLOB.cardinals)
 		mannequin.setDir(d)
 		COMPILE_OVERLAYS(mannequin)
+		//control flow condition is a static term: dreamchecker(control_condition_static)
+		//if condition is always true: dreamchecker(if_condition_determinate)
 		CHECK_TICK
 		var/icon/capture = getFlatIcon(mannequin)
 		CHECK_TICK

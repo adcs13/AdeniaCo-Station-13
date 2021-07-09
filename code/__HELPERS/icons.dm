@@ -1080,6 +1080,8 @@ GLOBAL_LIST_EMPTY(friendly_animal_types)
 		for(var/D in showDirs)
 			body.setDir(D)
 			COMPILE_OVERLAYS(body)
+			//control flow condition is a static term: dreamchecker(control_condition_static)
+			//if condition is always true: dreamchecker(if_condition_determinate)
 			var/icon/partial = getFlatIcon(body)
 			out_icon.Insert(partial,dir=D)
 
